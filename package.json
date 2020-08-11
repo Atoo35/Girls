@@ -1,0 +1,13 @@
+{
+	"name": "Name-Changer",
+	"version": "1.0.0",
+	"description": "Bot for PurgeMaster",
+	"main": "index.js",
+	"author": "Atoo",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"discord.js": "^12.2.0"
+	}
+}
