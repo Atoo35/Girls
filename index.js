@@ -6,7 +6,7 @@ client.on('ready',async()=>{
 })
 
 client.on('message',async(message)=>{
-    if(message.channel.name === 'name-changer'){
+    if(message.channel.id === '786258383991996416'){
         message.member.setNickname(message.content).then(message.react('✅'));
     }
 })
